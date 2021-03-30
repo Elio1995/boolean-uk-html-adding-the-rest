@@ -24,11 +24,72 @@
 .left-menu {
   grid-area: left-menu;
   background-color: rgb(196, 196, 196);
+  display: grid;
+  grid-template-rows: 30px 100px 80px 1fr 80px 60px;
+  grid-gap: 5px;
+  overflow: scroll;
+}
+
+.boolean {
+  border: solid 1px black;
+  display: grid;
+}
+
+.invite {
+  border: solid 1px black;
+  display: grid;
+}
+
+.general {
+  border: solid 1px black;
+  display: grid;
+}
+
+.classes {
+  border: solid 1px black;
+  display: grid;
+}
+
+.lobby {
+  border: solid 1px black;
+  display: grid;
+}
+
+.staff {
+  border: solid 1px black;
+  display: grid;
 }
 
 .main {
   grid-area: main;
   background-color: rgb(156, 190, 201);
+  display: grid;
+  grid-template-rows: 30px 1fr 30px 20px;
+  grid-gap: 5px;
+}
+
+.class1 {
+  border: solid 1px black;
+  display: grid;
+  place-items: center;
+}
+
+.welcome {
+  border: solid 1px black;
+  display: grid;
+  place-items: center;
+}
+
+.message {
+  border: solid 1px black;
+  display: grid;
+  place-items: center;
+}
+
+.messa {
+  border: solid 1px black;
+  display: grid;
+  place-items: center;
 }
 
 @media screen and (max-width: 450px) {
